@@ -1,5 +1,14 @@
 *.class
 
+# Maven build files
+target/
+
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
