@@ -144,7 +144,7 @@ public class FileSystemMetricSet implements MetricSet {
 	 * @return            A name for {@code store} usable in a metric name
 	 */
 	public String getFSName(FileStore store) {
-		return getFSNameByName(store);
+		return getFSNameByToStringPath(store);
 	}
 
 	/**
