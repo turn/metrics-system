@@ -6,7 +6,7 @@
 
     <groupId>com.turn</groupId>
     <artifactId>metrics-system</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <name>metrics-system</name>
     <url>http://github.com/turn/metrics-system</url>
@@ -35,6 +35,27 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+	
+	<repositories>
+		<repository>
+			<id>turn</id>
+			<url>http://maven.turn.com/content/repositories/turn</url>
+		</repository>
+	</repositories>
+	
+	<distributionManagement>
+		<repository>
+			<id>turn</id>
+			<url>http://maven.turn.com/content/repositories/turn</url>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>true</uniqueVersion>
+			<id>snapshots</id>
+			<name>Turn internal Maven repository for snapshots</name>
+			<url>http://maven.turn.com/content/repositories/snapshots</url>
+			<layout>default</layout>
+		</snapshotRepository>
+	</distributionManagement>
 
     <dependencies>
 
