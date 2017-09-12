@@ -6,7 +6,7 @@
 
     <groupId>com.turn</groupId>
     <artifactId>metrics-system</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <name>metrics-system</name>
     <url>http://github.com/turn/metrics-system</url>
